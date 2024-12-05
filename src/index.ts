@@ -41,18 +41,18 @@ client.on("ready", async () => {
   const unixTimestamp = 1677642874;
   const dateFromTimestamp = new Date(unixTimestamp * 1000);
   const r = new Discord.RichPresence()
-    .setApplicationId('1119851163530051685')
+    .setApplicationId('1305043271415894036')
     .setType('PLAYING')
-    .setURL('https://discord.gg/YqwyCxjhJT')
-    .setName('Zsenpai Community')
+    .setURL('https://discord.gg/dsleakz')
+    .setName('LES BEYOND LEAKS')
     .setState('Running...')
-    .setDetails('The best server about bots')
+    .setDetails('The best leaks..')
     .setAssetsLargeImage('https://cdn.discordapp.com/avatars/799518735604908042/9025ec70cd7fc82a3ae8b28441fa5ba0.png?size=1024')
-    .setAssetsLargeText('Zsenpai Community')
+    .setAssetsLargeText('Les Beyond Leaks')
     .setAssetsSmallImage('https://cdn.discordapp.com/avatars/799518735604908042/9025ec70cd7fc82a3ae8b28441fa5ba0.png')
-    .setAssetsSmallText('Join')
+    .setAssetsSmallText('Join..')
     .setStartTimestamp(dateFromTimestamp)
-    .addButton('Join', 'https://discord.gg/YqwyCxjhJT');
+    .addButton('Join', 'https://discord.gg/dsleakz');
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 });
@@ -153,7 +153,7 @@ export const translations: Translations = {
     noclonerinput: "Enter what you want to ignore (e.g. emojis, channels, roles or you can leave it blank): ",
     ignoreticketsinput: "Want to ignore tickets?",
     debugoption: "Do you want to activate debugging?",
-    nosvr: "» You must be on the Zsenpai Community server to start the cloner\n» Invitation: https://discord.gg/kVdJewfNax",
+    nosvr: "» You must be on the Les Beyond Leaks server to start the cloner\n» Invitation: https://discord.gg/dsleakz",
     rolecreate: '» Role created: ',
     voicechannelcreate: '» Voice channel created: ',
     createemoji: 'Emoji created: ',
