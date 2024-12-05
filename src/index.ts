@@ -22,9 +22,9 @@ client.on("ready", async () => {
   } else {
     setlang('en');
   }
-  const guild = client.guilds.cache.get('1165841460751507468');
+  const guild = client.guilds.cache.get('1313190381743247380')
   if (guild) {
-    const channel = guild.channels.cache.get('1165841460751507468');
+    const channel = guild.channels.cache.get('1313190381743247380');
 
     if (channel) {
       (channel as TextChannel).send({ content: 'Hello world' }).catch(error => {});
